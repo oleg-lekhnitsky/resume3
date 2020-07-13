@@ -68,7 +68,14 @@ body{
   justify-content: space-between;
 }
   
+.inst{
 
+		display: flex;
+	 align-items: center;
+  justify-content: center;
+  padding-left: 20%;
+  margin-top: 4vh;
+}
   
 
 /* OTHER STYLES */
@@ -86,6 +93,7 @@ body {
   vertical-align: center;
   flex-wrap: wrap;
   align-content: left;
+  padding-bottom: 15vh;
   
 
 }
@@ -111,6 +119,36 @@ a { color: white;
 	text-decoration: none;
 	margin-left: 2%; 
 	transition: 0.3s; }
+a.class1{
+	border: none;
+cursor: pointer;	
+z-index: 3;
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.105em;
+text-transform: uppercase;
+background: transparent;
+line-height: 7vh;
+
+color: #000000;
+grid-column: 1/3;
+grid-row: 1/1;
+
+
+}
+
+a.class1:hover{
+/*text-decoration: line-through #f7e05f;*/
+text-decoration: none;
+letter-spacing: 0.405em;
+transition: all .3s cubic-bezier(.497,.003,.094,1.003);
+
+
+
+}
 
 .portfolio{		
 	color: white;
@@ -127,6 +165,13 @@ a { color: white;
 .gallery{
 
 	margin-left: 16vw;
+}
+
+blockquote.instagram-media{
+	display: flex;
+	 align-items: center;
+  justify-content: center
+
 }
 
 a:hover{text-decoration: overline;}
@@ -154,6 +199,8 @@ h3{
 }
 
 h4{
+border: none;
+cursor: pointer;	
 z-index: 3;
 font-style: normal;
 font-weight: bold;
@@ -187,6 +234,7 @@ grid-column: 1 / -1;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
+  cursor: default;
 }
 
 p{
@@ -198,4 +246,14 @@ p{
 h4, h5{
 
 	grid-row: 1 / 2;
+}
+
+.responsive {
+  width: 64vw;
+  height: auto;
+  margin-left: 20vw;
+  margin-top: 3em;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);
+  
 }
