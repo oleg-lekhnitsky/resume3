@@ -170,6 +170,7 @@ h3{
 	margin: 40px 20%;
 	margin-bottom: 20px;
 	padding: 0px 0px;
+	z-index: 4;
 
 }
 
@@ -210,19 +211,51 @@ h5{
 
 	}
 
+	h6{
+	position: absolute;
+	z-index: 1;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30vw;
+	/*color: orange;*/
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	cursor: default;
+	margin: 0% 12%;
+	margin-top: -13%;
+	transform: rotate(180deg);
+	
+
+
+	}
+
+
+
 p{
 	font-size: 18px;
 	margin-left: 20%;
-	margin-right: 15%
+	margin-right: 15%;
+	z-index: 2
+}
+p.landing{
+	font-size: 18px;
+	margin-left: 20%;
+	margin-right: 30%;
+	margin-top: 21%;
+	z-index: 2;
+	font-weight: 300;
+
+
 }
 
 .responsive {
   width: 64vw;
   height: auto;
+  object-fit: contain;   
   margin-left: 20vw;
   margin-top: 3em;
   border-radius: 3px;
   box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);
-  object-fit: contain; 
   
 }
