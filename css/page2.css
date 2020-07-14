@@ -210,7 +210,7 @@ h5{
 	margin: 0 7%;
 
 	}
-
+d
 	p.hello{
 	position: absolute;
 	z-index: 1;
@@ -218,8 +218,7 @@ h5{
 	font-weight: bold;
 	font-size: 30vw;
 	/*color: orange;*/
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
+	
 	background-clip: text;
 	cursor: default;
 	margin: 0% 12%;
