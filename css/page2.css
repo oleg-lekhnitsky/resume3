@@ -214,11 +214,12 @@ h5{
 
 
 
-p{
+p{	font-weight: 300;
 	font-size: 18px;
 	margin-left: 20%;
 	margin-right: 15%;
 	z-index: 2
+
 }
 p.landing{
 	font-size: 18px;
@@ -245,6 +246,7 @@ p.landing{
 	margin: 0% 12%;
 	margin-top: -13%;
 	transform: rotate(180deg);
+	transition: all .3s cubic-bezier(.497,.003,.094,1.003);
 	
 
 
