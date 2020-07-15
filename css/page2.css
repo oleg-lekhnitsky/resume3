@@ -57,6 +57,7 @@ header a:hover{
   transform: rotate(180deg) translate(-5vw, .06em);
   transition: all 0.3s cubic-bezier(0.497, 0.003, 0.094, 1.003);
   line-height: .8em;
+  cursor: default;
   animation: .7s hello-animation;
 }
 
