@@ -5,7 +5,6 @@
   font-family: "Montserrat", sans-serif;
   scrollbar-width: none;
 }
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -64,7 +63,7 @@ header a:hover{
 
 @keyframes hello-animation{
   from{
-    top:-20vw;
+    top:-20 vw;
     transform: rotate(180deg) translate(-5vw, 1.3em) ;
   }
 
@@ -73,6 +72,7 @@ header a:hover{
     left: 0vw;
     transform: rotate(180deg) translate(-5vw, .06em);
   }
+}
 .text-wrp{
   display: flex;
   top: 30px;
