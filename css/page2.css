@@ -211,8 +211,8 @@ h5{
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;
-	cursor: default;
-	margin: 0 %;
+	
+	margin: 0 ;
 	padding-bottom: 5%;
 
 	}
