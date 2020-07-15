@@ -5,6 +5,7 @@
   font-family: "Montserrat", sans-serif;
   scrollbar-width: none;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
