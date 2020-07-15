@@ -72,7 +72,6 @@ header a:hover{
     left: 0vw;
     transform: rotate(180deg) translate(-5vw, .06em);
   }
-}
 .text-wrp{
   display: flex;
   top: 30px;
@@ -233,9 +232,7 @@ p.landing{
 p.programms{
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 20 	px;
-/* or 233% */
-
+	line-height: 20 px;
 letter-spacing: 0.35em;
 text-transform: uppercase;
 font-feature-settings: 'case' on;
