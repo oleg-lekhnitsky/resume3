@@ -64,7 +64,7 @@ header a:hover{
 
 @keyframes hello-animation{
   from{
-    top:-20 vw;
+    top:-20vw;
     transform: rotate(180deg) translate(-5vw, 1.3em) ;
   }
 
