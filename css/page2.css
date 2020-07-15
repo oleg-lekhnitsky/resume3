@@ -91,15 +91,7 @@ main{
 }
 
 
-  
 
-  
-
-/* OTHER STYLES */
-
-/** {
-  box-sizing: border-box;
-}*/
 .gallery{
 	margin-top: 5%;
 }
@@ -114,7 +106,6 @@ align-items: center;
 justify-content: center;
 width: 65vw;
 height: 33vw;
-/*object-fit: contain;*/
 border-radius: 1%;
 border: 0.1px solid rgba(255, 255, 255, 0.6);
 box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.04), -2px -2px 4px rgba(255, 255, 255, 0.12);
@@ -153,7 +144,6 @@ a.class1{
 }
 
 a.class1:hover{
-/*text-decoration: line-through #f7e05f;*/
 text-decoration: none;
 letter-spacing: 0.405em;
 transition: all .3s cubic-bezier(.497,.003,.094,1.003);
