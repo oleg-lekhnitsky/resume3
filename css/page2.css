@@ -87,34 +87,7 @@ main{
   top: 0;
 }
 
-/*.first-face {
-  
- grid-template-columns: 25vw 33vw 3vw;
-  justify-content: center;
-  align-items: center;
-}
 
-.second-face {
-  justify-content: center;
-  align-items: center;
-}
-
-.third-face {
-	justify-content: center;
-	align-items: center;
-}
-.fourth-face, .sixth-face {
-	justify-content: center;
-	align-items: center;
-}
-.fourth-face .column, .sixth-face  {
-  justify-content: space-between;
-}
-
-.fifth-face {
-  display: flex;
-  justify-content: space-between;
-}*/
   
 .inst{
 
@@ -250,15 +223,7 @@ h5{
 
 
 
-/*p{	font-weight: 300;
-	font-size: 18px;
-	margin-left: 20%;
-	margin-right: 15%;
-	z-index: 2
 
-}
-
-*/
 
 p.landing{
 	font-size: 18px;
